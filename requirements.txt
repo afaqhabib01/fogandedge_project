@@ -1,0 +1,12 @@
+AWSIoTPythonSDK
+boto3
+botocore
+click
+Flask
+Flask-SQLAlchemy
+Jinja2
+requests
+numpy
+gunicorn
+Flask-CORS
+pymysql

@@ -1,4 +1,4 @@
-name: Seedup
+name: fogandedge_project
 
 on:
   push:
@@ -33,6 +33,6 @@ jobs:
     - name: Run tests (allow empty)
       run: pytest || echo "No tests found – skipping"
 
-    - name: Check Cost_of_living Flask app syntax
+    - name: Check fogandedge_project Flask app syntax
       run: |
         if [ -f tests/__init__.py ]; then python -m py_compile tests/__init__.py; fi
